@@ -1,0 +1,7 @@
+# Run from yolov5/. Supply a cleaned local dataset under datasets/construction/.
+path: ../datasets/construction
+train: train/images
+val: valid/images
+# Original test images have no ground-truth labels: no test evaluation configured.
+nc: 3
+names: ['hardhat', 'vest', 'worker']

@@ -1,0 +1,15 @@
+{
+  "source": "runs/train/exp12/results.csv",
+  "recorded_epochs": 300,
+  "selection": "last recorded epoch, not best checkpoint or independent test",
+  "metrics": {
+    "metrics/precision": 0.91275,
+    "metrics/recall": 0.82704,
+    "metrics/mAP_0.5": 0.86825,
+    "metrics/mAP_0.5:0.95": 0.44383
+  },
+  "limitations": [
+    "Historical data path points to crane, whose current config is single-class.",
+    "The three-class submitted dataset has cross-split duplicate images and unmatched labels."
+  ]
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+datasets/
+weights/
+runs/
+*.pt
+*.pth
+*.cache
+*.zip
+*.wmv
+*.mp4
