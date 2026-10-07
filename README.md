@@ -20,7 +20,6 @@ yolov5/                     课程提供的 YOLOv5 运行代码及原许可证
 measurement/legacy/         原始深度测量代码（依赖课程 GUI 文件）
 reports/exp12/              原始训练日志、配置及带限制说明的指标摘要
 assets/                     exp12 训练曲线、PR 曲线与混淆矩阵
-docs/resume.md              核实后的简历文案与事实依据
 ```
 
 ## 训练与推理
